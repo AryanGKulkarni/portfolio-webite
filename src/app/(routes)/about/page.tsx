@@ -6,7 +6,6 @@ import {
     Table,
     TableHeader,
     TableBody,
-    TableFooter,
     TableHead,
     TableRow,
     TableCell,
@@ -24,7 +23,7 @@ export default function AboutPage() {
                     <Separator className='my-3'/>
                     <h1 className='text-xl my-2'>Description</h1>
                     <div className="flex justify-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro officiis, nam dolor quis distinctio libero ipsa veritatis corrupti et voluptas itaque obcaecati sunt aut facilis omnis iusto magni atque, asperiores cupiditate explicabo iure possimus. Delectus non earum harum asperiores est temporibus exercitationem quae, quos, sequi unde eaque quasi? Perferendis ea, odio necessitatibus libero eum id, molestiae a quod recusandae dolore expedita est corporis temporibus nam odit fugiat sit. Nam impedit laudantium numquam. Illum vitae incidunt atque beatae sequi dolor! Tempore at mollitia perspiciatis, ipsa autem labore aspernatur fugit nobis. Eum iusto quo in laboriosam assumenda delectus aliquam? Eos, velit similique.
+                    Hello, my name is Aryan Kulkarni, and I am from Pune. I am currently pursuing a B.Tech at IIT Indore. My hobbies include playing cricket, football, badminton, table tennis, and basketball. I am passionate about software development, machine learning, and competitive programming. I have worked on various projects, which you can explore further on this website. Additionally, I have experience in open-source contributions. I hope you enjoy browsing through my site!
                     </div>
                     <Separator className='my-3'/>
                     <h1 className='text-xl my-2'>Education</h1>
