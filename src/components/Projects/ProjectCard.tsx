@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useEffect, useState } from 'react';
-import { Card, CardContent } from '../ui/card';
+import { Card, CardContent, CardTitle } from '../ui/card';
 import Image, { StaticImageData } from 'next/image';
 import { Separator } from '../ui/separator';
 import Link from 'next/link';
@@ -61,7 +61,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, description, tec
             <div>
               <Image onClick={toggleExpanded} className='cursor-pointer' src={img} alt="" width={800} height={600} />
               <Separator className='my-3' />
-              <h1 className='text-xl'>{projectName}</h1>
+              <CardTitle>{projectName}</CardTitle>
               {expanded && (
                 <>
                   <ol>
