@@ -10,9 +10,13 @@ interface ProjectCardProps {
   projectName: string;
   description: string[];
   techStacks: string[];
+  imageUrls: string[];
+  github: string;
+  weburl: string;
+  redirecturl: string
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, description, techStacks }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, description, techStacks, imageUrls, github, weburl, redirecturl }) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpanded = () => {
@@ -49,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ projectName, description, tec
             </div>
             <Separator orientation='vertical' style={{ backgroundColor: 'black' }} />
             <div>
-              <Link href="/" target='_blank'>
+              <Link href="#" target='_blank'>
                 <img src="/github.svg" alt="Github Icon" width="48" height="48" className='mb-4' />
               </Link>
               <Link href="/" target='_blank'>
