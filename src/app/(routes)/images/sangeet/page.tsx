@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function ImagesPage() {
+export default function SangeetPage() {
   return (
     <div className='flex flex-wrap mx-10'>
       <div className="flex justify-center space-x-4 my-3">
