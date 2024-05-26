@@ -13,9 +13,11 @@ export const data = [
     ],
     "github": "https://github.com/AryanGKulkarni/Sangeet-App",
     "imageurls": [
-        "https://example.com/images/chatbot1.png",
-        "https://example.com/images/chatbot2.png",
-        "https://example.com/images/chatbot3.png"
+        "/sangeet/1.png",
+        "/sangeet/2.png",
+        "/sangeet/3.png",
+        "/sangeet/4.png",
+        "/sangeet/5.png",
     ],
     "weburl": "https://sangeet-app.vercel.app/",
     "redirecturl": ""
